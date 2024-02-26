@@ -1,55 +1,53 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"A melhor linguagem do mundo é?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual linguagem de programação mais você prefere?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Javascript", "alias":"A"},
+        {"id": 2, "name":"Python", "alias":"B"},
+        {"id": 3, "name":"C#", "alias":"B"},
+        {"id": 4, "name":"Java", "alias":"B"},
+        {"id": 5, "name":"PHP", "alias":"B"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual área paga mais?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Frontend", "alias":"B"},
+        {"id": 2, "name":"Backend", "alias":"B"},
+        {"id": 3, "name":"Fulstack", "alias":"A"},
+        {"id": 4, "name":"Dados", "alias":"B"},
+        {"id": 4, "name":"Não faço idea", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Quais das linguagens abaixo é a mais rápida?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Javascript", "alias":"B"},
+        {"id": 2, "name":"Go Lang", "alias":"B"},
+        {"id": 3, "name":"C#", "alias":"B"},
+        {"id": 4, "name":"C", "alias":"B"},
+        {"id": 5, "name":"Java", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual seria a melhor escolha de linguagem para um projeto completo?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-      ]
-    },
-    {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Javascript", "alias":"A"},
+        {"id": 2, "name":"Python", "alias":"B"},
+        {"id": 2, "name":"C#", "alias":"B"},
+        {"id": 2, "name":"Java", "alias":"B"},
+        {"id": 2, "name":"HTML", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você é uma testemunha do javascripto",
+    "B": "Não existe a melhor linguagem!"
   }
 }
