@@ -1,36 +1,25 @@
-.quizz__container{
+.quizz__container {
   width: 80%;
   margin: auto;
   margin-top: 20px;
 }
 
-.quizz_logo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.quizz_logo > h3{
-  margin-top: 20px;
-}
-
-.quizz_questions{
+.quizz_questions {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #4224d9;
+  border: 1px solid #00ffe1;
   border-radius: 8px;
-  background-color: #644ED2;
+  background-color: #644ed2;
   width: 100%;
   height: 200px;
   font-size: 20px;
-  font-family: 'Segoe UI';
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 20px;
 }
 
-.quizz_options{
+.quizz_options {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,34 +27,48 @@
   margin-bottom: 20px;
 }
 
-.btn-option{
-  background-color: transparent;
+.btn-option {
+  min-width: 112px;
+  width: 15%;
+  height: 75px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 31px;
+  margin: 8px;
+
+  background-color: #f5f5f5;
+  color: #601bba;
+
   border-radius: 8px;
   border: 1px solid #18ab29;
-  width: 50%;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 17px;
-  padding: 16px 31px;
+  font-weight: bold;
+
   text-decoration: none;
   text-shadow: 0px 1px 0px #2f6627;
+
+  cursor: pointer;
 }
 
-.btn-option:hover{
+.btn-option:hover {
   background-color: #5cbf2a;
 }
 
-.btn-option:active{
+.btn-option:active {
   position: relative;
-  top:1px;
+  top: 1px;
 }
 
-.quizz_results{
+.quizz_results {
   width: 100%;
   height: 350px;
-  background-color: #1F0539;
+  background-color: #1f0539;
   border-radius: 10px;
   padding: 30px;
   display: flex;

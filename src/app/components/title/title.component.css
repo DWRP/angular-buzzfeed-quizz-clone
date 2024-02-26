@@ -1,0 +1,13 @@
+.quizz_logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.quizz_logo > h3 {
+  margin-top: 20px;
+}
